@@ -37,7 +37,7 @@ if (apiProxyTarget) {
 }
 
 if (!process.env.UI_API_ENDPOINT) {
-  process.env.UI_API_ENDPOINT = 'http://localhost:3000/graphql';
+  process.env.UI_API_ENDPOINT = 'https://issuetracker-backend.onrender.com/graphql';
 }
 
 if (!process.env.UI_SERVER_API_ENDPOINT) {
